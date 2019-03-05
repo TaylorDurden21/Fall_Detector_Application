@@ -9,6 +9,8 @@
             android:roundIcon="@drawable/logo"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".CustomerSignInActivity">
+        </activity>
         <activity android:name=".RelativeHomeActivity">
         </activity>
         <activity android:name=".CustomerHomeActivity">
