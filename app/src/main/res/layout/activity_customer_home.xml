@@ -7,6 +7,4 @@
         android:layout_height="match_parent"
         tools:context=".CustomerHomeActivity"
         android:background="@drawable/fond"
->
-
-</android.support.constraint.ConstraintLayout>
+/>
