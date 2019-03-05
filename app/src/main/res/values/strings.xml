@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Fall_Detector</string>
+
+
+    <string name="id_relative_home">RELATIVE</string>
+    <string name="id_customer_home">CUSTOMER</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
 </resources>
