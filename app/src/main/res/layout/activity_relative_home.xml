@@ -9,4 +9,34 @@
         android:background="@drawable/fond"
 >
 
+    <TextView
+            android:text="@string/id_relative_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_relative_home" android:textSize="50sp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="131dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+    />
+    <Button
+            android:text="@string/signin"
+            android:layout_width="271dp"
+            android:layout_height="72dp"
+            android:id="@+id/signin_relative" tools:background="#7A3222"
+            android:textColor="#FFFFFF" android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="31dp" app:layout_constraintBottom_toTopOf="@+id/button2"
+            android:layout_marginTop="130dp" app:layout_constraintTop_toBottomOf="@+id/id_relative_home"/>
+    <ImageView
+            android:layout_width="45dp"
+            android:layout_height="44dp" app:srcCompat="@drawable/home"
+            android:id="@+id/imageHome1" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="13dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="14dp"/>
+    <Button
+            android:text="@string/signup"
+            android:layout_width="271dp"
+            android:layout_height="72dp" tools:layout_editor_absoluteY="526dp"
+            android:id="@+id/button2" android:background="@color/colorAccent"
+            android:textColor="#FFFFFF" android:textSize="25sp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 </android.support.constraint.ConstraintLayout>
