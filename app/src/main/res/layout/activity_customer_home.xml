@@ -27,16 +27,17 @@
             android:text="@string/signin"
             android:layout_width="271dp"
             android:layout_height="72dp"
-            android:id="@+id/signin_customer" android:layout_marginBottom="31dp"
-            app:layout_constraintBottom_toTopOf="@+id/signup_customer" app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/signin_customer"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="130dp"
             app:layout_constraintTop_toBottomOf="@+id/id_customer_home" android:background="@color/colorAccent"
             android:textColor="@android:color/white" android:textSize="25sp"/>
     <Button
             android:text="@string/signup"
             android:layout_width="271dp"
-            android:layout_height="72dp" tools:layout_editor_absoluteY="518dp"
+            android:layout_height="72dp"
             android:id="@+id/signup_customer" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:background="@color/colorAccent"
-            android:textColor="@android:color/white" android:textSize="25sp"/>
+            android:textColor="@android:color/white" android:textSize="25sp" android:layout_marginTop="31dp"
+            app:layout_constraintTop_toBottomOf="@+id/signin_customer"/>
 </android.support.constraint.ConstraintLayout>
